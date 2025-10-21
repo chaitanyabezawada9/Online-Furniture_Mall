@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to FurniCo</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f2f2f2;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 36px;
+      opacity: 0;
+      margin-top: -50px;
+      animation: slide 2s ease forwards;
+    }
+
+    @keyframes slide {
+      0% {
+        opacity: 0;
+        margin-top: -50px;
+      }
+      100% {
+        opacity: 1;
+        margin-top: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to FurniCo</h1>
+</body>
+</html>
